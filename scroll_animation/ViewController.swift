@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         tableView.setContentOffset(CGPoint(x: 0, y: 500), duration: 0.25, timingFunction: .sineInOut) {
             print("动画完成")
         }
+//        UIView.animate(withDuration: 0.25) {
+//            self.tableView.setContentOffset(CGPoint(x: 0, y: 500), animated: false)
+//        }
     }
     
     lazy var tableView: UITableView = {
