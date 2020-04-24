@@ -13,6 +13,7 @@
 		07A4AF362452BC87002CEAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A4AF342452BC87002CEAE9 /* Main.storyboard */; };
 		07A4AF382452BC8A002CEAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A4AF372452BC8A002CEAE9 /* Assets.xcassets */; };
 		07A4AF3B2452BC8A002CEAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A4AF392452BC8A002CEAE9 /* LaunchScreen.storyboard */; };
+		07A4AF432452BCA1002CEAE9 /* ScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4AF422452BCA1002CEAE9 /* ScrollViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		07A4AF372452BC8A002CEAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07A4AF3A2452BC8A002CEAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07A4AF3C2452BC8A002CEAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A4AF422452BCA1002CEAE9 /* ScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				07A4AF372452BC8A002CEAE9 /* Assets.xcassets */,
 				07A4AF392452BC8A002CEAE9 /* LaunchScreen.storyboard */,
 				07A4AF3C2452BC8A002CEAE9 /* Info.plist */,
+				07A4AF422452BCA1002CEAE9 /* ScrollViewExtension.swift */,
 			);
 			path = scroll_animation;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				07A4AF332452BC87002CEAE9 /* ViewController.swift in Sources */,
 				07A4AF2F2452BC87002CEAE9 /* AppDelegate.swift in Sources */,
 				07A4AF312452BC87002CEAE9 /* SceneDelegate.swift in Sources */,
+				07A4AF432452BCA1002CEAE9 /* ScrollViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
